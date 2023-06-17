@@ -1,4 +1,5 @@
 import { styled } from 'styled-components'
+import * as Dialog from '@radix-ui/react-dialog'
 
 export const HeaderContainer = styled.div`
   background: ${(props) => props.theme['gray-900']};
