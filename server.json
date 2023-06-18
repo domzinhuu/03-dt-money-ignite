@@ -1,15 +1,20 @@
 {
-    "transactions": [{
-        "id": 1,
-        "description": "Desenvolvimento de site",
-        "type": "income",
-        "category": "Venda",
-        "createdAt": "2023-06-18T15:40:58.397Z"
-    },{
-        "id": 2,
-        "description": "Hamburger",
-        "type": "outcome",
-        "category": "Alimentação",
-        "createdAt": "2023-06-18T16:43:58.397Z"
-    }]
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 12000,
+      "createdAt": "2023-06-18T15:40:58.397Z"
+    },
+    {
+      "id": 2,
+      "description": "Hamburger",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": -59,
+      "createdAt": "2023-06-18T16:43:58.397Z"
+    }
+  ]
 }
