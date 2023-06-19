@@ -23,7 +23,9 @@ export function TransactionsProvider({ children }: TransactionsProviderProps) {
   const [transactions, setTransactions] = useState<Transaction[]>([]);
 
   async function loadTransactions() {
-    const response = await fetch("http://localhost:3333/transactions");
+    const response = await fetch(
+      "http://localhost:3333/transactions?_sort=createdAt&_order=desc"
+    );
     const data = await response.json();
     console.log(data);
     setTransactions(data);

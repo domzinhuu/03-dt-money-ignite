@@ -13,8 +13,24 @@
       "description": "Hamburger",
       "type": "outcome",
       "category": "Alimentação",
-      "price": -59,
+      "price": 34.9,
       "createdAt": "2023-06-18T16:43:58.397Z"
+    },
+    {
+      "id": 3,
+      "description": "Uber para praia",
+      "type": "outcome",
+      "category": "Transporte",
+      "price": 65.56,
+      "createdAt": "2023-06-19T21:11:16.723Z"
+    },
+    {
+      "id": 4,
+      "description": "Compras no Mercado",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 548.9,
+      "createdAt": "2023-06-19T16:25:16.723Z"
     }
   ]
 }
