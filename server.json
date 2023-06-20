@@ -31,6 +31,22 @@
       "category": "Alimentação",
       "price": 548.9,
       "createdAt": "2023-06-19T16:25:16.723Z"
+    },
+    {
+      "description": "Some test application",
+      "category": "Testando",
+      "price": 2522,
+      "type": "income",
+      "createdAt": "2023-06-20T22:30:48.453Z",
+      "id": 5
+    },
+    {
+      "description": "Compra de terreno",
+      "category": "Imovel",
+      "price": 8000,
+      "type": "outcome",
+      "createdAt": "2023-06-20T23:01:29.343Z",
+      "id": 6
     }
   ]
 }
