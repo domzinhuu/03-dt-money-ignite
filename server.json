@@ -47,6 +47,38 @@
       "type": "outcome",
       "createdAt": "2023-06-20T23:01:29.343Z",
       "id": 6
+    },
+    {
+      "description": "Venda de Cachorro",
+      "category": "animal",
+      "price": 150,
+      "type": "income",
+      "createdAt": "2023-06-20T23:03:33.574Z",
+      "id": 7
+    },
+    {
+      "description": "carrocinha",
+      "category": "vendas",
+      "price": 250,
+      "type": "outcome",
+      "createdAt": "2023-06-20T23:08:54.360Z",
+      "id": 8
+    },
+    {
+      "description": "Patinete Eletrico",
+      "category": "Veiculo",
+      "price": 6500,
+      "type": "outcome",
+      "createdAt": "2023-06-20T23:12:13.950Z",
+      "id": 9
+    },
+    {
+      "description": "PIx para pagar emprestimo",
+      "category": "Recebiveis",
+      "price": 600,
+      "type": "income",
+      "createdAt": "2023-06-20T23:12:40.419Z",
+      "id": 10
     }
   ]
 }
