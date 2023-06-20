@@ -16,7 +16,6 @@ import {
 import * as z from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { asyncRequestSimulate } from "../../utils/functions";
 
 const newTransactionFormSchema = z.object({
   description: z.string(),
@@ -36,10 +35,7 @@ export function NewTransactionModal() {
     resolver: zodResolver(newTransactionFormSchema),
   });
 
-  async function handleCreateNewTransaction(data: NewTransactionFormInputs) {
-    await asyncRequestSimulate();
-    console.log(data);
-  }
+  async function handleCreateNewTransaction(data: NewTransactionFormInputs) {}
 
   return (
     <Dialog.Portal>
