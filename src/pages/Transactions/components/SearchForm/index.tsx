@@ -3,7 +3,6 @@ import { SearchFormContainer } from "./styles";
 import { useForm } from "react-hook-form";
 import * as z from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { asyncRequestSimulate } from "../../../../utils/functions";
 import { useContext } from "react";
 import { TransactionContext } from "../../../../contexts/TransactionContext";
 
